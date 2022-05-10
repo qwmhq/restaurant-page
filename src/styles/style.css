@@ -1,0 +1,79 @@
+:root{
+    --blue: #376D99;
+    --red: #E61A12;
+    --red-highlight: #E65952;
+    --white: #eeeeee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+}
+
+.header {
+    height: 8vh;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+
+.logo {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.header-links {
+    color: white;
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    gap: 48px;
+}
+
+#tab-content {
+    height: 92vh;
+    background: url("../assets/davide-cantelli-jpkfc5_d-DI-unsplash.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    max-width: 500px;
+    margin-top: 25vh;
+    color: var(--red);
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 24px;
+}
+
+.current-tab {
+    color: var(--red);
+}
+
+.img-attribution {
+    margin-bottom: 5vh;
+    margin-top: auto;
+    color: #eeeeee;
+}
+
+.coming-soon {
+    margin-top: 25vh;
+    color: var(--red);
+    font-size: 48px;
+}
