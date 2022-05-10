@@ -1,0 +1,1 @@
+Basic Restaurant Page. Live preview can be found [here](https://qwmhq.github.io/restaurant-page/).
